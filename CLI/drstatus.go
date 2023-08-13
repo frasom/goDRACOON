@@ -49,7 +49,11 @@ func main() {
 	var Responses1 system_info
 	var Responses2 software_version
 
-	// 2DO checke args?
+	// checke args?
+	if len(os.Args) == 1 {
+		fmt.Println("DRACOON URL expected as a parameter")
+		os.Exit(1)
+	}
 
 	baseURL := os.Args[1]
 	// check if args(1) is a valid URL
