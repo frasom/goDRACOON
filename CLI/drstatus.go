@@ -1,9 +1,9 @@
 // DRACOON API
 // get software version and system information
 // from a DRACOON System
-// API ist documentet in support.dracoon.com
+// API ist documented in support.dracoon.com
 // Autor: f.sommer@dracoon.com
-// Version 0.1.0
+// Version 0.1.1
 package main
 
 import (
