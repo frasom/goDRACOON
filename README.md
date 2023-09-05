@@ -3,7 +3,7 @@ clients for public API (upload / download shares, software information) - DRACOO
 
 ## About the project
 Some examples of using the DRACOON API.
-All information about DRACOON and the API can be found at [www.dracoon.com](https://www.dracoon.com/) and [developer.dracoon.com](https://developer.dracoon.com/).  
+A description of the DRACOON API can be accessed via the link https://dracoon.team/api. Current available client SDKs and code examples are referenced in the development portal at https://developer.dracoon.com/ and distributed via the DRACOON GitHub account https://github.com/dracoon.
 
 ## Tools
 
@@ -19,4 +19,4 @@ All information about DRACOON and the API can be found at [www.dracoon.com](http
 
 ____
 _Disclaimer: This is an unofficial project and is not supported by DRACOON. Use is at your own risk and without any guarantee_  
-Only the public API Call commands are used.
+Only the public API commands are used, therefore no authentication is required and is also not used in the examples.
