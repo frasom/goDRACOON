@@ -1,0 +1,43 @@
+
+/v4/public/software/version
+{
+  "restApiVersion": "string",
+  "sdsServerVersion": "string",
+  "buildDate": "2023-09-12T07:51:40.487Z",
+  "scmRevisionNumber": "string",
+  "isDracoonCloud": true
+}
+
+/v4/public/system/info
+
+{
+  "languageDefault": "de",
+  "hideLoginInputFields": false,
+  "s3Hosts": [
+    "0-2964728752.s3.nbg01.de.dracoon.io"
+  ],
+  "s3EnforceDirectUpload": true,
+  "useS3Storage": true,
+  "authMethods": [
+    {
+      "name": "openid",
+      "isEnabled": false,
+      "priority": 2
+    },
+    {
+      "name": "active_directory",
+      "isEnabled": true,
+      "priority": 3
+    },
+    {
+      "name": "basic",
+      "isEnabled": true,
+      "priority": 3
+    },
+    {
+      "name": "radius",
+      "isEnabled": false,
+      "priority": 3
+    }
+  ]
+}
