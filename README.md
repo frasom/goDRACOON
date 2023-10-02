@@ -27,7 +27,7 @@ A description of the DRACOON API can be accessed via the link https://dracoon.te
   * Notes
   * Downloadlimit
 
-  The file download is not yet implemented "dreams of the future"
+If desired the file can be downloaded
 
 ____
 _Disclaimer: This is an unofficial project and is not supported by DRACOON. Use is at your own risk and without any guarantee_  
