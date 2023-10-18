@@ -3,7 +3,7 @@
 // from a DRACOON System
 // API ist documented in support.dracoon.com
 // Autor: f.sommer@dracoon.com
-// Version 0.1.1
+// Version 0.1.0
 package main
 
 import (
