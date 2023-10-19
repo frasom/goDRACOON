@@ -59,8 +59,10 @@ func main() {
 	urlEntry := widget.NewEntry()
 	urlEntry.SetPlaceHolder("Cloud URL eingeben")
 
+	// set the labels as placeholders
 	resultLabel := widget.NewLabel("System :\nDracoon Type:\nSprache:\nAPI Version:\nServer Version:\nUse S3 Storage:\nS3 Hosts:\nAuth. Methods:")
 
+	// Query URL
 	sendButton := widget.NewButton("Abfragen", func() {
 		baseURL := urlEntry.Text
 		if baseURL == "" {
@@ -102,7 +104,7 @@ func main() {
 
 		// Set System Type String
 
-		// build Output String
+		// build output from JSON strings
 		response := "System :\t\t" + baseURL + "\nDracoon Type:\t"
 		// Set System Type String
 		if Responses2.IsDracoonCloud == true {
@@ -129,6 +131,7 @@ func main() {
 		resultLabel.SetText(string(response))
 	})
 
+	// show status
 	content := container.NewVBox(
 		widget.NewLabel("DRACOON System Status"),
 		urlEntry,

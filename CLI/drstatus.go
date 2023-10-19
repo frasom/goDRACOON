@@ -90,14 +90,23 @@ func main() {
 
 	// printing details of JSON strings
 	fmt.Printf("System :        %s\n", baseURL)
-	fmt.Printf("Dracoon Cloud:  ")
-	fmt.Printf("%v\n", Responses2.IsDracoonCloud) //"true or false"
+	fmt.Printf("Dracoon Type:   ")
+	if Responses2.IsDracoonCloud == true {
+		fmt.Printf("Cloud")
+	} else {
+		fmt.Printf("On-Premises")
+	}
+	fmt.Printf("\n")
 	fmt.Printf("Sprache:        %s\n", Responses1.LanguageDefault)
 	fmt.Printf("API Version:    %s\n", Responses2.RestAPIVersion)
 	fmt.Printf("Server Version: %s\n", Responses2.SdsServerVersion)
 	fmt.Printf("Use S3 Storage: ")
 	fmt.Printf("%v\n", Responses1.UseS3Storage) //"true or false"
-	fmt.Printf("S3 Hosts:       %s\n", Responses1.S3Hosts)
+	fmt.Printf("S3 Hosts:       ")
+	for i := range Responses1.S3Hosts {
+		fmt.Printf("%s ", Responses1.S3Hosts[i])
+	}
+	fmt.Printf("\n")
 	fmt.Printf("Auth. Methods:  ")
 	for i := range Responses1.AuthMethods {
 		fmt.Printf("%s ", Responses1.AuthMethods[i].Name)
