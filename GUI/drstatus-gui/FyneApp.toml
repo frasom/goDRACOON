@@ -3,6 +3,6 @@ Website = "https://github.com/frasom/goDRACOON/GUI/"
 [Details]
   Icon = "./resources/drCheck.png"
   Name = "drstatus"
-  ID = "github.com/frasom/goDRACOON/GUI"
+  ID = "github.com/frasom/goDRACOON/tree/main/GUI/drstatus"
   Version = "0.1.0"
   Build = 2
