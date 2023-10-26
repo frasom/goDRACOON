@@ -29,6 +29,9 @@ A description of the DRACOON API can be accessed via the link https://dracoon.te
 
 If desired the file can be downloaded
 
+## GUI Version
+For those who don't like CLI, a GUI version created with Fyne is available.
+
 ____
 _Disclaimer: This is an unofficial project and is not supported by DRACOON. Use is at your own risk and without any guarantee_  
 Only the public API commands are used, therefore no authentication is required and is also not used in the examples.
