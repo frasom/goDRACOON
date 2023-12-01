@@ -11,6 +11,17 @@ To build iOS apps you will need Xcode installed on your macOS computer as well a
 % ~/go/bin/fyne package -os ios -appID com.github.goDRACOON -icon ./resources/drCheck.png
 -os=ios requires XCode
 
+### install Xcode Command Line Tools on a Mac:
+
+    * install the full Xcode package
+    * install Xcode Command Line Tools when triggered by a command
+    * install Xcode Command Line Tools as part of a Homebrew installation.
+
+```
+xcode-select --install 
+``` 
+https://www.freecodecamp.org/news/install-xcode-command-line-tools/
+
 
 ## Android mobile packaging
 
