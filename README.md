@@ -1,4 +1,10 @@
 # goDRACOON
+
+![Static Badge](https://img.shields.io/badge/OS-macOS_%7C_Linux-lightgrey)
+![GitHub top language](https://img.shields.io/github/languages/top/frasom/goDRACOON)
+![GitHub License](https://img.shields.io/github/license/frasom/goDRACOON)
+![GitHub repo size](https://img.shields.io/github/repo-size/frasom/goDRACOON)
+
 clients for public API (upload / download shares, software information) - DRACOON (https://dracoon.com)
 
 ## About the project
